@@ -1,0 +1,26 @@
+.card {
+    width: auto;
+    border-radius: 7px;
+    background-color: #ffffff;
+    min-height:  345px;
+
+}
+
+.btn-card {
+    border-radius: 13px;
+    background-color: var(--clear-blue);
+}
+
+.card-sub-text {  
+    font-family: Inconsolata;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: 0.1px;
+    text-align: center;
+    color: var(--brownish-grey);
+    margin-top: 25px;
+    margin-bottom: 40px;
+}

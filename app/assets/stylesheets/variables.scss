@@ -1,0 +1,120 @@
+
+/* Color palette */
+
+:root {
+    --scarlet: #d0021b;
+    --black: #000000;
+    --brownish-grey: #767676;
+    --clear-blue: #1c85ff;
+    --greyish-brown: #3c3c3c;
+    --tealish: #2196ae;
+  }
+  
+  /* Text styles */
+  
+  .heading {
+    font-family: Inconsolata;
+    font-size: 36px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--black);
+    
+  }
+
+  .large-heading {
+    font-family: Inconsolata;
+    font-size: 48px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.83;
+    letter-spacing: 6.3px;
+    color: var(--black);
+  }
+  
+  body {
+    font-family: Inconsolata;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--black);
+  }
+  
+  .h3 {
+    font-family: Inconsolata;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--black);
+  }
+  
+  .h2 {
+    font-family: Inconsolata;
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--black);
+  }
+
+  .brand-heading {
+    font-family: Merriweather;
+    font-size: 36px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 10.1px;
+    color: var(--tealish);
+
+  }
+
+  .heading-headline {
+    font-family: Inconsolata;
+    font-size: 36px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.31;
+    letter-spacing: 4.7px;
+    color: #ffffff;
+  }
+
+  .heading-subtext {  
+    font-family: Inconsolata;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.05;
+    letter-spacing: 5.6px;
+    color: #ffffff;
+  }
+  
+  .jumbotron{
+      background-color: transparent;
+  }
+
+  .header-footnote {
+    margin-top: 180px;
+    font-family: Inconsolata;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 3.42;
+    letter-spacing: 3.4px;
+    color: #ffffff;
+
+  }
