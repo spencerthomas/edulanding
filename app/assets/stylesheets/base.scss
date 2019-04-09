@@ -3,7 +3,9 @@
     background-blend-mode: luminosity, ;
     background-image: linear-gradient(to bottom, #1900ff, #1900ff), linear-gradient(130deg, #3023ae, #c86dd7);
     margin-bottom: 250px;
+    margin-top: -80px;
 }
+
 
 .header-jumbotron {
     margin-top: 180px;
@@ -20,6 +22,7 @@
     height: 660px;
     background-color: #ffffff;
     margin-bottom: 250px;
+    margin-top: 250px;
   
 }
 
@@ -32,6 +35,7 @@
 .content-block-cta {
     height: 660px;
     background-color: #ffffff;
+    margin-top: 240px;
   
 }
 
@@ -44,8 +48,10 @@
     background-color: var(--clear-blue);
   }
 
+.row {
+   
+}
 
-.row{
-    padding-left: 80px;
-    padding-right: 80px;
+.footer {
+    height: 330px;
 }
