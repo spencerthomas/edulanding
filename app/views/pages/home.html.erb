@@ -23,8 +23,8 @@
     
 
 		<div class="row">
-				<div class="col-12 content-block-course">
-						<div class="row text-align-center mb-3">
+				<div class="col-12 content-block-course mb-5">
+						<div class="row text-align-center mb-5">
 								<div class="col-md-6 offset-md-3 col-sm-6 text-center ">
 										<h2 class="large-heading text-align-center industry-cred">Industry led credentials.</h1>
 										<h5 class="mx-2 text-align-center Gain-a-project-based">Gain in demand skills from leaders in the field with our unique project based approach.</h5>
@@ -93,18 +93,16 @@
 
 						</div>
 
-						<div class="row">
+						<div class="row mb-5">
 								<div class="col-md-6 offset-md-3 col-sm-12 mb-5 text-center">
 										<h5 class="my-5"><%= link_to "See Our Course Library", root_path %></h5>
 								</div>
 						</div>
 				</div>
-				
-
 		</div>
 
 
-		<div class="row">
+		<div class="row mt-5">
 				<div class="col-12 content-block-student">
 					<div class="row">
 						<div class="col-md-4 offset-md-2 col-lg-4 offset-lg-2 col-sm-6">
@@ -122,101 +120,86 @@
 			</div>
 		</div>
 
-		<div class="row block-how-it-works">
-			<div class="col-12 block-headings">
-							<h3 class="lead heading-how-works mb-3 text-align-center">How It Works</h3>
-							<p class="subheading-how-it-works m-3 ">Thrive in an immersive learning environment that brings together <br>leading academics and industry visionaries.</p>
-					<div class="row">
-							<div class="container">
-								<div class="row learning-block">
-									<div class="col-6">
-										<h2 class="block-title">Immersive learning</h2>
-											<hr class="block-hr">
-										<p class="block-description">Hands-on learning, interactive content, measurable progress.</p>
-
-									</div>
-
-									<div class="col-6">
-										<%= image_tag "immersive.png", class: "img-fluid" %>
-									</div>
-									
-								</div>
-							</div>
-					</div>
-
-					<div class="row">
-							<div class="container">
-								<div class="row learning-block">
-									<div class="col-6">
-										<h2 class="block-title">Real Projects</h2>
-											<hr class="block-hr">
-										<p class="block-description text-align-right">Work on real world problems with our project based cirriculum. Build a portfolio of expert reviewed projects.</p>
-
-									</div>
-
-									<div class="col-6">
-										<%= image_tag "projects.png", class: "img-fluid" %>
-									</div>
-									
-								</div>
-							</div>
-					</div>
-
-					<div class="row">
-							<div class="container">
-								<div class="row learning-block">
-									<div class="col-6">
-										<h2 class="block-title">Career Services</h2>
-											<hr class="block-hr">
-										<p class="block-description text-align-right">Getting the skills is the first step, Selling your sell is next. We coach and mentor you to use your profile and new skills to shine in the job-market.</p>
-
-									</div>
-
-									<div class="col-6">
-										<%= image_tag "careers.png", class: "img-fluid" %>
-									</div>
-									
-								</div>
-							</div>
-					</div>
-
-
-					<div class="row">
-							<div class="container">
-								<div class="row learning-block">
-									<div class="col-6">
-										<h2 class="block-title">Supported Learning</h2>
-											<hr class="block-hr">
-										<p class="block-description text-align-right">We don’t do  distinctions here. You either have the skills or you don’t and our mentors are industry experts who are there to support you all the way.</p>
-
-									</div>
-
-									<div class="col-6">
-										<%= image_tag "supported.png", class: "img-fluid" %>
-									</div>
-									
-								</div>
-							</div>
-					</div>
+		<div class="row block-how-it-works mt-5">
+			<div class="col-12 block-headings mt-5">
+				<h3 class="lead heading-how-works m-5 text-align-center">How It Works</h3>
+				<p class="subheading-how-it-works m-3 ">Thrive in an immersive learning environment that brings together leading academics and industry visionaries.</p>
+			</div>
+			
+			<div class="row justify-content-center learning-block">
+				<div class="col-md-4 col-sm-6">
+					<h2 class="block-title">Immersive learning</h2>
+						<hr class="block-hr">
+					<p class="block-description">Hands-on learning, interactive content, measurable progress.</p>
 
 				</div>
-		
 
-		</div>
-    
-			<div class="row content-block-cta justify-content-center">
-				<div class="col-12">
+				<div class="col-md-4 col-sm-6">
+					<%= image_tag "immersive.png", class: "img-fluid" %>
+				</div>				
+			</div>
 
-					<h1 class="m-5 text-center brand-heading">ed/u</h1>
-					<h3 class="mb-5 text-center">The best investment you will ever make</h3>
-					<form class="form-inline text-center cta-form m-3">
-						<input type="text" class="form-control cta-form mb-2 mr-sm-2" id="inlineFormInputName2" placeholder="Your Email">
-						<button type="submit" class="btn btn-primary mb-2">Let's Go</button>
-            		</form>
-					
+			
+			<div class="row justify-content-center learning-block">
+				<div class="col-md-4 col-sm-6">
+					<h2 class="block-title">Real Projects</h2>
+						<hr class="block-hr">
+					<p class="block-description text-align-right">Work on real world problems with our project based cirriculum. Build a portfolio of expert reviewed projects.</p>
+
+				</div>
+
+				<div class="col-md-4 col-sm-6">
+					<%= image_tag "projects.png", class: "img-fluid" %>
+				</div>
+									
+				
+			</div>
+
+			<div class="row  justify-content-center learning-block">
+				<div class="col-md-4 col-sm-6">
+					<h2 class="block-title">Career Services</h2>
+						<hr class="block-hr">
+					<p class="block-description text-align-right">Getting the skills is the first step, Selling your sell is next. We coach and mentor you to use your profile and new skills to shine in the job-market.</p>
+
+				</div>
+
+				<div class="col-md-4 col-sm-6">
+					<%= image_tag "careers.png", class: "img-fluid" %>
 				</div>
 				
 			</div>
+						
+
+			<div class="row justify-content-center learning-block mb-5">
+				<div class="col-md-4 col-sm-6">
+					<h2 class="block-title">Supported Learning</h2>
+						<hr class="block-hr">
+					<p class="block-description text-align-right">We don’t do  distinctions here. You either have the skills or you don’t and our mentors are industry experts who are there to support you all the way.</p>
+
+				</div>
+
+				<div class="col-md-4 col-sm-6">
+					<%= image_tag "supported.png", class: "img-fluid" %>
+				</div>
+				
+			</div>
+						
+		</div>
+    </div>
+
+	<div class="row content-block-cta justify-content-center">
+			<div class="col-12">
+
+				<h1 class="m-5 text-center brand-heading-cta">ed/u</h1>
+				<h3 class="mb-5 text-center sub-heading-cta">The best investment<br> you will ever make</h3>
+				<form class="form-inline text-center cta-form m-3">
+					<input type="text" class="form-control cta-form mb-2 mr-sm-2" id="inlineFormInputName2" placeholder="Your Email">
+					<button type="submit" class="btn btn-primary mb-2">Let's Go</button>
+				</form>
+				
+			</div>
+			
+		</div>
 
 	</div>
 

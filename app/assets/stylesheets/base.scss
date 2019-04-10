@@ -1,8 +1,8 @@
 .header-block {
-    height: 1228px;
+    height: auto;
     background-blend-mode: luminosity, ;
     background-image: linear-gradient(to bottom, #1900ff, #1900ff), linear-gradient(130deg, #3023ae, #c86dd7);
-    margin-bottom: 250px;
+    margin-bottom: 80px;
     margin-top: -80px;
 }
 
@@ -13,21 +13,17 @@
 
 
 .content-block-course {
-    height: 756px;
+    height: auto;
     background-color: #ffffff;
-    margin-bottom: 250px;
 }
 
 .content-block-student {
     height: 660px;
     background-color: #ffffff;
-    margin-bottom: 250px;
-    margin-top: 250px;
   
 }
 
 .block-how-it-works {
-    height: 2000px;
     background-blend-mode: luminosity, ;
     background-image: linear-gradient(to bottom, rgba(25, 0, 255, 0.4), rgba(25, 0, 255, 0.4)), linear-gradient(149deg, #3023ae, #c86dd7);
 }
@@ -80,4 +76,29 @@
     letter-spacing: 5.6px;
     text-align: center;
     color: #2a2a2a;
+  }
+
+  .sub-heading-cta {
+    font-family: Inconsolata;
+    font-size: 36px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.14;
+    letter-spacing: 4.7px;
+    text-align: center;
+    color: var(--black);
+
+  }
+
+  .brand-heading-cta {
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 18px;
+    text-align: center;
+    color: #2196ae;
   }
